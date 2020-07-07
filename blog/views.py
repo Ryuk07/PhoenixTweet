@@ -14,7 +14,7 @@ def is_users(post_user, logged_user):
     return post_user == logged_user
 
 
-PAGINATION_COUNT = 3
+PAGINATION_COUNT = 5
 
 
 class PostListView(LoginRequiredMixin, ListView):
