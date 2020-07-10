@@ -72,12 +72,12 @@ ul {
 
 a {
     color: white;
-    text-underline: none;
+    text-decoration:underline none;
      text-decoration: none !important;
 }
 a:hover {
     color: #00FBD7;
-    text-underline: none !important;
+    text-decoration: underline none !important;
 }
 .text-muted {
     color: var(--muted-color) !important;
@@ -183,7 +183,7 @@ ul {
 .hovered-tweet:hover {
     -webkit-transition: background-color ease-in-out .2s;
     -webkit-transition: border ease-in-out .2s;
-    background-color: #2d3741 !important;
+    background-color: #157adf !important;
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 20px;
 }
